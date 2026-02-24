@@ -29,50 +29,60 @@ const pillars = [
   },
 ];
 
-const portfolio = [
-  {
-    name: 'FactuurBaas',
-    description:
-      'FactuurBaas is a fast and easy invoicing tool for freelancers and small businesses to create professional invoices in minutes—no registration required.',
-    cta: 'Create Free Professional Invoices in Minutes',
-    link: 'https://factuurbaas.nl/',
-    image:
-      'https://iemgpccgdlwpsrsjuumo.supabase.co/storage/v1/object/sign/foto/Screenshot%202025-06-16%20150605.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83YjkxZGZkZC1hYTQ1LTQ3NTUtODZiMy1iZDBhY2QyMjlkMjMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmb3RvL1NjcmVlbnNob3QgMjAyNS0wNi0xNiAxNTA2MDUucG5nIiwiaWF0IjoxNzUwMDk0MzAzLCJleHAiOjE5MDc3NzQzMDN9.T6m86b-T281nZePGSM2IH-AeYjYSq5oQIhTrKNEmvvg',
-  },
-  {
-    name: 'MyGoProfile',
-    description:
-      'MyGoProfile automates Google Business Profile management with AI-powered review responses, optimization insights, and multi-location control in one dashboard.',
-    cta: 'Dominate Local Search with MyGoProfile',
-    link: 'https://mygoprofile.com/',
-    image: 'https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/MGP/Screenshot%202025-09-27%20212746.png',
-  },
+const ventures = [
   {
     name: 'TopTours.ai',
-    description:
-      'TopTours.ai helps travelers discover curated tours and activities worldwide using AI-driven suggestions, interactive itineraries, and smart filters.',
-    cta: 'Discover AI-Powered Tours',
+    description: 'AI-powered discovery for global travel experiences',
     link: 'https://toptours.ai/',
-    image:
-      'https://iemgpccgdlwpsrsjuumo.supabase.co/storage/v1/object/sign/foto/Screenshot%202025-06-24%20102145.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83YjkxZGZkZC1hYTQ1LTQ3NTUtODZiMy1iZDBhY2QyMjlkMjMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmb3RvL1NjcmVlbnNob3QgMjAyNS0wNi0yNCAxMDIxNDUucG5nIiwiaWF0IjoxNzUwNzUzMzQ2LCJleHAiOjE5MDg0MzMzNDZ9.28bDE7pLgNEKv7_5ystmLMQigixQ7HzUenzevGRrDWI',
+    domain: 'toptours.ai',
   },
   {
-    name: 'ArubaBuddies',
-    description:
-      'ArubaBuddies is a smart trip planning platform that curates local recommendations and interactive itineraries to make every Aruba vacation unforgettable.',
-    cta: 'Plan Your Perfect Aruba Vacation',
+    name: 'ArubaBuddies.com',
+    description: 'Curated local trip planning & itineraries',
     link: 'https://arubabuddies.com/',
-    image:
-      'https://iemgpccgdlwpsrsjuumo.supabase.co/storage/v1/object/sign/foto/Screenshot%202025-06-16%20151003.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83YjkxZGZkZC1hYTQ1LTQ3NTUtODZiMy1iZDBhY2QyMjlkMjMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJmb3RvL1NjcmVlbnNob3QgMjAyNS0wNi0xNiAxNTEwMDMucG5nIiwiaWF0IjoxNzUwMDkzOTQxLCJleHAiOjE5MDc3NzM5NDF9.uK6Hg29YlEqmJe1AFSJW_4Zhr3P3TdWLY_M1zMXg9ZI',
+    domain: 'arubabuddies.com',
+  },
+  {
+    name: 'FactuurBaas',
+    description: 'Streamlined invoicing for freelancers & small businesses',
+    link: 'https://factuurbaas.nl/',
+    domain: 'factuurbaas.nl',
+  },
+  {
+    name: 'OneHappyFinance',
+    description: 'Transparent, actionable financial information for Aruba',
+    link: 'https://onehappyfinance.com/',
+    domain: 'onehappyfinance.com',
   },
   {
     name: 'AruList',
-    description:
-      'Buy and Sell in Aruba. The easiest marketplace for second-hand items, cars and housing in Aruba.',
-    cta: 'Visit arulist.com - Aruba\'s Marketplace, Buy and Sell',
+    description: 'Community-driven marketplace supporting sustainable second-hand commerce',
     link: 'https://arulist.com/',
-    image:
-      'https://iemgpccgdlwpsrsjuumo.supabase.co/storage/v1/object/public/AruList/arulist.png',
+    domain: 'arulist.com',
+  },
+  {
+    name: 'TOF Sports',
+    description: 'Digital and physical ecosystem for youth tennis & padel development',
+    link: 'https://tofsports.nl/',
+    domain: 'tofsports.nl',
+  },
+  {
+    name: 'MyGoProfile',
+    description: 'AI-driven local profile management for businesses',
+    link: 'https://mygoprofile.com/',
+    domain: 'mygoprofile.com',
+  },
+  {
+    name: 'BiteReserve',
+    description: 'Track exactly which guest sources send revenue, no guessing',
+    link: 'https://bitereserve.com/',
+    domain: 'bitereserve.com',
+  },
+  {
+    name: 'Aru365.com',
+    description: 'Find the best tours and activities in Aruba',
+    link: 'https://aru365.com/',
+    domain: 'aru365.com',
   },
 ];
 
@@ -135,45 +145,32 @@ const TwoXGenApp = () => {
           <section className="mt-20 px-4 pb-24">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Portfolio</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Ventures</h2>
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                  Explore the platforms we’ve built to make life easier, businesses smarter, and travel more exciting.
+                  2xGen builds and operates digital platforms that combine strategic positioning, scalable architecture, and measurable impact.
                 </p>
               </div>
 
-              <div className="space-y-12">
-                {portfolio.map((item, index) => {
-                  const isEven = index % 2 === 0;
-                  return (
-                    <article
-                      key={item.name}
-                      className={`grid gap-8 md:grid-cols-[0.95fr_1.05fr] items-center rounded-3xl border border-emerald-100 shadow-lg overflow-hidden ${
-                        isEven ? 'bg-white' : 'bg-emerald-50'
-                      }`}
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {ventures.map((venture) => (
+                  <article
+                    key={venture.name}
+                    className="flex flex-col rounded-2xl border border-emerald-100 bg-white p-6 shadow-sm hover:shadow-md transition-shadow"
+                  >
+                    <h3 className="text-xl font-semibold text-gray-900 mb-1">{venture.name}</h3>
+                    <p className="text-sm text-gray-500 mb-2">{venture.domain}</p>
+                    <p className="text-gray-600 mb-4 flex-1">{venture.description}</p>
+                    <a
+                      href={venture.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 self-start px-4 py-2 rounded-full bg-emerald-600 text-white text-sm font-semibold hover:bg-emerald-500 transition-colors"
                     >
-                      <div className={`relative h-full bg-white ${isEven ? '' : 'md:order-2'}`}>
-                        <img
-                          src={item.image}
-                          alt={item.name}
-                          className="w-full h-full object-contain"
-                          loading="lazy"
-                        />
-                      </div>
-                      <div className={`p-8 md:p-10 ${isEven ? '' : 'md:order-1'}`}>
-                        <h3 className="text-2xl font-semibold text-gray-900 mb-3">{item.name}</h3>
-                        <p className="text-gray-600 mb-6">{item.description}</p>
-                        <a
-                          href={item.link}
-                          target="_blank"
-                          className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-emerald-600 text-white font-semibold hover:bg-emerald-500 transition-colors"
-                        >
-                          <span>{item.cta}</span>
-                          <ExternalLink className="w-4 h-4" />
-                        </a>
-                      </div>
-                    </article>
-                  );
-                })}
+                      <span>Visit {venture.name}</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </article>
+                ))}
               </div>
             </div>
           </section>

@@ -20,8 +20,8 @@ const Location = () => {
     {
       icon: MessageCircle,
       title: 'WhatsApp',
-      content: '+31 6 82716962',
-      link: 'https://wa.me/31682716962?text=Hello%20Harry%2C%20i%20would%20like%20to%20schedule%20tennis%20lessons%20with%20you',
+      content: '+297 5600090',
+      link: 'https://wa.me/2975600090?text=Hello%20Harry%2C%20i%20would%20like%20to%20schedule%20tennis%20lessons%20with%20you',
     },
     {
       icon: MapPin,
@@ -47,8 +47,8 @@ const Location = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Plan Your Lesson in Aruba</h2>
-          <p className="text-xl text-gray-600">Reach out to customize your tennis program or reserve your preferred training time.</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Plan Your Tennis Lesson in Aruba</h2>
+          <p className="text-xl text-gray-600">Book tennis lessons on courts in the Palm Beach area. Reach out to customize your program or reserve your preferred time.</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -61,7 +61,7 @@ const Location = () => {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-3xl font-semibold text-gray-900 mb-3">Meet Harry van Reek</h3>
               <p className="text-gray-600 leading-relaxed">
-                Harry is a PTR Professional with 33+ years of coaching experience and founder of Omnibus Tennis. He specializes in customized lessons for every
+                Harry is a PTR Professional tennis coach with 33+ years of experience and founder of Omnibus Tennis. He teaches on tennis courts in the Palm Beach area and specializes in customized tennis lessons for every
                 level—including reduced-mobility players—so you can grow your game in Aruba with confidence and energy.
               </p>
             </div>

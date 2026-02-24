@@ -99,30 +99,26 @@ const TennisShoesWomenGuide = () => {
   return (
     <>
       <Helmet>
-        <title>Women’s Heat-Ready Tennis Shoes | Omnibus Tennis</title>
+        <title>Women’s Tennis Shoes for Aruba – Heat-Ready Picks | Omnibus Tennis</title>
         <meta
           name="description"
-          content="Explore the best women’s tennis shoes for warm-weather play. Omnibus Tennis tests breathable, stable footwear perfect for Aruba."
+          content="Best women’s tennis shoes for warm-weather play. Breathable, stable options tested by Omnibus Tennis—ideal for ladies’ tennis and court time in Aruba."
         />
         <link rel="canonical" href="https://omnibustennis.com/guides/tennis-shoes-women/" />
-        <meta
-          name="keywords"
-          content="women's tennis shoes Aruba, best tennis shoes for women hot climate, Omnibus Tennis gear guide"
-        />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="Women’s Heat-Ready Tennis Shoes" />
+        <meta property="og:title" content="Women’s Tennis Shoes for Aruba – Heat-Ready Picks" />
         <meta
           property="og:description"
-          content="Handpicked women’s tennis shoes that stay cool, cushioned, and supportive in warm climates."
+          content="Women’s tennis shoes that stay cool and supportive in warm climates. Picks from Omnibus Tennis for play in Aruba."
         />
         <meta property="og:image" content={guide?.image.src} />
         <meta property="og:image:alt" content={guide?.image.alt} />
         <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Women’s Heat-Ready Tennis Shoes" />
+        <meta name="twitter:title" content="Women’s Tennis Shoes for Aruba" />
         <meta
           name="twitter:description"
-          content="Discover breathable, stable tennis footwear for women, tested by Omnibus Tennis pros in Aruba."
+          content="Best women’s tennis shoes for warm-weather play. Tested by Omnibus Tennis in Aruba."
         />
         <meta name="twitter:image" content={guide?.image.src} />
         <script type="application/ld+json">

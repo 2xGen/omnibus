@@ -35,27 +35,26 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Omnibus Tennis Aruba - Elite Tennis Lessons in Aruba</title>
+        <title>Omnibus Tennis Aruba – Tennis Lessons &amp; Coaching in Aruba</title>
         <meta
           name="description"
-          content="Omnibus Tennis delivers personalized tennis lessons in Aruba for all ages and skill levels. Train with certified pros led by Harry van Reek and elevate your game today."
+          content="Book tennis lessons in Aruba with Omnibus Tennis. Certified tennis coach Harry van Reek offers private lessons on courts in the Palm Beach area. Tennis in Aruba for all levels."
         />
         <link rel="canonical" href="https://omnibustennis.com/" />
-        <meta name="keywords" content="tennis lessons in Aruba, Aruba tennis coaching, Omnibus Tennis, Harry van Reek, tennis academy Aruba, private tennis lessons Aruba" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Omnibus Tennis Aruba - Elite Tennis Lessons in Aruba" />
+        <meta property="og:title" content="Omnibus Tennis Aruba – Tennis Lessons &amp; Coaching in Aruba" />
         <meta
           property="og:description"
-          content="Book personalized tennis lessons in Aruba with Omnibus Tennis founder Harry van Reek. Certified coaching for beginners, juniors, and competitive players."
+          content="Book tennis lessons in Aruba. Certified tennis coach Harry van Reek offers private lessons on Palm Beach area courts. Tennis in Aruba for every level."
         />
         <meta property="og:image" content="https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/omnibus/harry%20tennis%20aruba.png" />
         <meta property="og:image:alt" content="Harry van Reek coaching tennis players in Aruba" />
         <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Omnibus Tennis Aruba - Elite Tennis Lessons in Aruba" />
+        <meta name="twitter:title" content="Omnibus Tennis Aruba – Tennis Lessons in Aruba" />
         <meta
           name="twitter:description"
-          content="Certified tennis coaching in Aruba for every age and skill level. Train with PTR Professional Harry van Reek at Omnibus Tennis."
+          content="Tennis lessons in Aruba with a certified coach. Private lessons on Palm Beach area courts. Book with Omnibus Tennis."
         />
         <meta name="twitter:image" content="https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/omnibus/harry%20tennis%20aruba.png" />
         <script type="application/ld+json">
@@ -79,24 +78,28 @@ function App() {
               latitude: 12.5683,
               longitude: -70.0431,
             },
+            areaServed: { '@type': 'Place', name: 'Aruba' },
             description:
-              'Omnibus Tennis provides private tennis lessons and coaching in Aruba for beginners, juniors, and competitive players.',
+              'Omnibus Tennis offers private tennis lessons and coaching in Aruba. Tennis coach Harry van Reek teaches on tennis courts in the Palm Beach area.',
+            sport: 'Tennis',
             openingHoursSpecification: [
               {
                 '@type': 'OpeningHoursSpecification',
-                dayOfWeek: [
-                  'Monday',
-                  'Tuesday',
-                  'Wednesday',
-                  'Thursday',
-                  'Friday',
-                  'Saturday',
-                  'Sunday',
-                ],
+                dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
                 opens: '07:00',
                 closes: '21:00',
               },
             ],
+            hasOfferCatalog: {
+              '@type': 'OfferCatalog',
+              name: 'Tennis lessons',
+              itemListElement: [
+                {
+                  '@type': 'Offer',
+                  itemOffered: { '@type': 'Service', name: 'Private tennis lesson (60 min)' },
+                },
+              ],
+            },
           })}
         </script>
       </Helmet>

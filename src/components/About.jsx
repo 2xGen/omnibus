@@ -65,9 +65,9 @@ const About = () => {
       }} className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">About Omnibus Tennis Aruba</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We offer first-class tennis instruction from certified professionals who understand how to elevate your game. Omnibus Tennis adapts to every player’s
-            training needs with programs that fit your schedule, intensity, and learning style. Our academy welcomes anyone who loves tennis—whether you’re
-            exploring the sport for the first time or preparing for your next tournament.
+            We offer first-class tennis instruction from certified tennis coaches who understand how to elevate your game. Our tennis academy in Aruba adapts to every player’s
+            training needs with programs that fit your schedule, intensity, and learning style. Whether you’re
+            exploring the sport for the first time or preparing for your next tournament, our academy welcomes everyone who loves tennis.
           </p>
           <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">
             Our coaching roster brings together personable tennis professionals from the Netherlands, the United States, and the Caribbean—each one committed to

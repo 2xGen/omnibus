@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           className="w-full h-full object-cover"
-          alt="Omnibus Tennis coach instructing a player on a bright Aruba court"
+          alt="Omnibus Tennis coach giving a tennis lesson on a court in Aruba"
           src="https://soaacpusdhyxwucjhhpy.supabase.co/storage/v1/object/public/omnibus/tennis%20hero.png"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/70"></div>
@@ -44,7 +44,7 @@ const Hero = () => {
         delay: 0.2,
         ease: 'easeOut'
       }} className="text-xl md:text-2xl text-white/90 mb-8 font-light">
-        Discover premier tennis lessons in Aruba from Omnibus Tennis. Our certified coaches deliver tailored training plans on world-class island courts so every player can elevate their tennis in Aruba.
+        Discover premier tennis lessons in Aruba from Omnibus Tennis. Our certified tennis coaches deliver tailored training on courts across the island so you can play tennis in Aruba at your best.
       </motion.p>
         
         <p className="mt-6 text-lg md:text-xl text-white/80 max-w-2xl mx-auto">
